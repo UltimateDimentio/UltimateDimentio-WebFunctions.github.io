@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="../CSS/style.css">
+    <title>Staff Page</title>
+</head>
+<body>
+    <header class="Header" id="header">
+        <nav>
+            <a href="../index.html">Main Page</a>
+            <a href="2-gradeConverter.html">Grade Converter</a>
+            <a class="activelink" href="3-staffPage.html">Staff Page</a>
+            <a href="4-temperatureConverter.html">Temperature Converter</a>
+        </nav>
+    </header>
+
+    <main>
+    
+    <h1>Staff Salary Sorting</h1>
+
+    <div class="buttons">
+    <button onclick = "sortBySalaryLowHigh()">Salary Low to High</button>
+    <button onclick = "sortBySalaryHighLow()">Salary High to Low</button>
+    <button onclick="sortNameAZ()">Name A-Z</button>
+    <button onclick="sortNameZA()">Name Z-A</button>
+    </div>
+    <br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Work location</th>
+                <th>Postal Code</th>
+                <th>Hire date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <tbody id="staffTable"></tbody>
+    </table>
+    </main>
+
+    <footer id="footer">
+
+    </footer>
+
+    <script src="../JS/script3.js"></script>
+    <script src="../JS/mainScript.js"></script>
+</body>
+</html>

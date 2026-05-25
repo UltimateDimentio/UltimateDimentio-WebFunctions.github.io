@@ -1,0 +1,138 @@
+/* Color reference: https://colorhunt.co/palette/eaefefbfc9d125343fff9b51 */
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #EAEFEF;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #25343F;
+    color: #FF9B51;
+    padding: 30px;
+}
+
+a, a:visited, a:hover {
+  color: inherit;
+}
+
+a:hover {
+    color: #f9c785;
+}
+
+a:active {
+    background-color: #BFC9D1;
+}
+
+a.activelink {
+    background-color: #BFC9D1;
+    color: #25343F
+}
+
+nav > a {
+    margin: 10px;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+#profilePicture {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profilePicture > img {
+    border: 5px solid #25343F;
+    border-radius: 10px;
+}
+
+#profilePicture * {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    background-color: #FF9B51;
+    border: 3px solid #25343F;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input, select {
+    background-color: #BFC9D1;
+    border: 3px solid #25343F;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#result {
+    display: block;
+    justify-self: center;
+    border-radius: 5px;
+    padding: 25px;
+    max-width: 200px;
+    
+}
+
+.activeResult {
+    border: 3px solid #25343F;
+    background-color: #BFC9D1;
+}
+
+.table {
+    display: block;
+    text-align: center;
+    justify-self: center;
+    background-color: #BFC9D1;
+    /* flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 3px solid #25343F;
+    padding: 10px;
+}
+
+#footer {
+    background-color: #BFC9D1;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end; */
+}
+
+#result {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
